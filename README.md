@@ -6,4 +6,4 @@ Libra was built as a rebuild of an earlier CLI-based library management system, 
 
 consciously chose a single serializer over splitting list/detail, given the dataset size didn't justify the extra complexity. That's a legitimate engineering judgment call, not a shortcut you need to hide.
 
-Extra features can be , a way of adding bulk import of books through csv files.
+Extra features can be : a way of adding bulk import of books through csv files.
