@@ -69,7 +69,7 @@ SIMPLE_WT = {
     'AUTH_HEADER_TYPES': ('Bearer',),
 }
 
-MIDDLEWARE = [
+MIDDLEWARE = [ 
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -77,6 +77,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'libra_project.middleware.SimpleMiddleWare',
 ]
 
 ROOT_URLCONF = 'libra_project.urls'
