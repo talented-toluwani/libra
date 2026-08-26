@@ -151,6 +151,9 @@ Documented deliberately, given the project's timeline:
 
 ---
 
+## Architectural Diagram
+![Libra infrastructure diagram](docs/library-png.png)
+
 ## Author
 
 Built by Miracle (Toluwani) as a Module 3 (Django & DRF) SIWES deliverable.
